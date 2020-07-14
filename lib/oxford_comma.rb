@@ -1,7 +1,7 @@
 def oxford_comma(array)
+case array.length 
+when 1 
   array.join(",")
-end
-
-def oxford_comma(array)
+when 2 
   array.join (" and ")
 end
