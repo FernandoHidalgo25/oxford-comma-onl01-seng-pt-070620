@@ -1,7 +1,9 @@
-
-case array.length 
-when 1 
+def oxford_comma(array)
   array.join(",")
-else 
+end
+
+def oxford_comma(array)
   array.join (" and ")
 end
+
+def 
