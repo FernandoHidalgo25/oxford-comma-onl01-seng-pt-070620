@@ -2,6 +2,6 @@
 case array.length 
 when 1 
   array.join(",")
-when 2 
+else 
   array.join (" and ")
 end
