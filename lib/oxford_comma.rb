@@ -6,4 +6,6 @@ def oxford_comma(array)
   array.join (" and ")
 end
 
-def 
+def oxford_comma(array)
+  array.join(,) << array.join ("and")
+end
